@@ -42,9 +42,9 @@ ResourcePref resources[] = {
 		{ "color0",       STRING,  &normbgcolor },
 		{ "color4",       STRING,  &normfgcolor },
 		{ "color4",       STRING,  &selbgcolor },
-		{ "color7",       STRING,  &selfgcolor },
-		{ "color2",       STRING,  &urgbgcolor },
-		{ "color3",       STRING,  &urgfgcolor },
+		{ "color0",       STRING,  &selfgcolor },
+		{ "color0",       STRING,  &urgbgcolor },
+		{ "color8",       STRING,  &urgfgcolor },
 };
 
 #define MODKEY ControlMask
